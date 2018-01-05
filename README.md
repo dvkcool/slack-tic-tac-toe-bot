@@ -6,9 +6,9 @@ this can help developers to take a small refreshing break and also an opportunit
 This bot has some special emoticons to play with too, just need to use special keywords like boys, girls or food with normal start process.
 
 ## Demo
- ![food](./demo/game2.gif)
+ ![food](https://github.com/dvkcool/slack-tic-tac-toe-bot/blob/master/demo/game2.gif?raw=true)
 
-Click [here](https://github.com/dvkcool/slack-tic-tac-toe-bot/demo/game2.gif) if the GIF doesn't load here. 
+Click [here](https://github.com/dvkcool/slack-tic-tac-toe-bot/demo/game2.gif?raw=true) if the GIF doesn't load here. 
 ## Pre-requisites
 
 * [NodeJS](https://nodejs.org)
@@ -22,11 +22,11 @@ Click [here](https://github.com/dvkcool/slack-tic-tac-toe-bot/demo/game2.gif) if
 * Navigate to https://my.slack.com/services/new/bot
 * Choose a bot user name and click on **'+ Add bot integration’**.
 
-![Bot creation](./demo/bot-name.png)
+![Bot creation](https://github.com/dvkcool/slack-tic-tac-toe-bot/blob/master/demo/bot-name.png?raw=true)
 
 * Copy the API Token from the page, it will be used later.
 
-![Bot API screen](./demo/bot-api-key.png)
+![Bot API screen](https://github.com/dvkcool/slack-tic-tac-toe-bot/blob/master/demo/bot-api-key.png?raw=true)
 
 
 
@@ -87,8 +87,15 @@ Then type
 Then just follow on screen instructions(just you and your friend has to type yes to join a game')
 
 Just a demo of how to start a normal game
-![normal](./demo/game1.gif)
+![normal](https://github.com/dvkcool/slack-tic-tac-toe-bot/blob/master/demo/game1.gif?raw=true)
 Click [here](https://github.com/dvkcool/slack-tic-tac-toe-bot/demo/game1.gif) if the GIF doesn't load here. 
+
+
+### To quit a game in between
+Just type  'quit' to abandon game.
+![quit](https://github.com/dvkcool/slack-tic-tac-toe-bot/blob/master/demo/gamequit.png?raw=true)
+
+
 Congratulations you have succesfully deployed the slack tic tac toe bot, now whenever you need to take a small break just remember this slack bot and play a small game of tic tac toe with your frien :)
 
 Divyanshu Kumar

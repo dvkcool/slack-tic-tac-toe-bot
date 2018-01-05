@@ -1,5 +1,5 @@
-description: A slackbot to play tic tac toe with your team mates at slack, deployed
-  on hasura
+description: A slackbot to play tic tac toe with your team mates at Slack, deployed
+  on Hasura
 keywords: bot, slack, nodejs, express, node, javascript, slack, slackbot, chatbot
 media: {}
 name: slack-tic-tac
