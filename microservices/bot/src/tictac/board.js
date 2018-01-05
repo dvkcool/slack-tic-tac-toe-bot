@@ -2,7 +2,7 @@ const _ = require('underscore');
 
 const Slot = require('./slot');
 const Emoji = require('./emoji');
-const BoardStringGenerator = require('./boardStringGenerator');
+
 
 const WIDTH = 3;
 const HEIGHT = 3;
@@ -13,7 +13,7 @@ class Board {
         this.gameType = gameType;
         this.slots = this.initialiseSlots();
         this.gameWon = false;
-        this.bsg = new BoardStringGenerator(this.slots, WIDTH, HEIGHT);
+
     }
 
     static get width() {
@@ -47,10 +47,7 @@ class Board {
     }
 
     isBoardFull() {
-        /*let topRow = this.slots[this.slots.length - 1];
-        return _.every(topRow, (slot) => {
-            return !slot.empty;
-        });*/
+
 	let m =true;
 	for(let i=0; i<3; i++){
 	 for(let j=0; j<3; j++){
@@ -62,12 +59,7 @@ class Board {
 	return m;
     }
 
-    /**
-     * Checks whether the counter just played was a winning move for that player.
-     * Only looks at the winning positions the most recent counter is in, and only checks if the player
-     * that just played has won, not both players.
-     * @returns {boolean}
-     */
+
     checkWon() {
        // return this.bsg.checkWon(this.lastPlayedSlot);
 	//First row
