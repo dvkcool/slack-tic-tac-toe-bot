@@ -32,8 +32,8 @@ This bot has some special emoticons to play with too, just need to use special k
 ### Getting the Hasura project
 
 ```sh
-$ hasura quickstart dvk/slack-tic-tac-bot
-$ cd slack-tic-tac-bot
+$ hasura quickstart dvk/slack-tic-tac
+$ cd slack-tic-tac
 # Add Slack API key to hasura secrets. 
 hasura secrets update SLACK_BOT_TOKEN.key  <Your Bot API KEY>
 # Deploy
