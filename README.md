@@ -6,8 +6,9 @@ this can help developers to take a small refreshing break and also an opportunit
 This bot has some special emoticons to play with too, just need to use special keywords like boys, girls or food with normal start process.
 
 ## Demo
- ![normal](./screenshots/screenshot1.png) --|-- ![home-scren-scroll](./screenshots/screenshot2.png)
+ ![food](./demo/game2.gif)
 
+Click [here](https://github.com/dvkcool/slack-tic-tac-toe-bot/demo/game2.gif) if the GIF doesn't load here. 
 ## Pre-requisites
 
 * [NodeJS](https://nodejs.org)
@@ -21,11 +22,11 @@ This bot has some special emoticons to play with too, just need to use special k
 * Navigate to https://my.slack.com/services/new/bot
 * Choose a bot user name and click on **'+ Add bot integration’**.
 
-![Fb app screen](https://raw.githubusercontent.com/jaisontj/hasura-fb-bot/master/assets/tutorial_fb_app_screen.png "fb app screen")
+![Bot creation](./demo/bot-name.png)
 
 * Copy the API Token from the page, it will be used later.
 
-![Fb app screen2](https://raw.githubusercontent.com/jaisontj/hasura-fb-bot/master/assets/tutorial_fb_app_screen2.png "fb app screen2")
+![Bot API screen](./demo/bot-api-key.png)
 
 
 
@@ -50,24 +51,25 @@ $ hasura microservice list
 You will get an output like so:
 
 ```sh
-USER MS NAME     STATUS      INTERNAL-URL              EXTERNAL-URL
-bot              Running     bot.cassava35-user:80     https://bot.cassava35.hasura-app.io
+USER MS NAME     STATUS      INTERNAL-URL       EXTERNAL-URL         
+bot              Running     bot.default:80     http://bot.arbitrary58.hasura-app.io
 
-HASURA MS NAME     STATUS      INTERNAL-URL                            EXTERNAL-URL
-postgres           Running     postgres.cassava35-hasura:5432          
-session-redis      Running     session-redis.cassava35-hasura:6379     
-sshd               Running                                             
-auth               Running     auth.cassava35-hasura:80                http://auth.cassava35.hasura-app.io
-gateway            Running                                             
-le-agent           Running                                             
-platform-sync      Running                                             
-data               Running     data.cassava35-hasura:80                http://data.cassava35.hasura-app.io
-filestore          Running     filestore.cassava35-hasura:80           http://filestore.cassava35.hasura-app.io
-notify             Running     notify.cassava35-hasura:80              http://notify.cassava35.hasura-app.io
+HASURA MS NAME     STATUS      INTERNAL-URL                  EXTERNAL-URL
+filestore          Running     filestore.hasura:80           http://filestore.arbitrary58.hasura-app.io
+le-agent           Running                                   
+sshd               Running                                   
+platform-sync      Running                                   
+session-redis      Running     session-redis.hasura:6379     
+gateway            Running                                   
+notify             Running     notify.hasura:80              http://notify.arbitrary58.hasura-app.io
+postgres           Running     postgres.hasura:5432          
+auth               Running     auth.hasura:80                http://auth.arbitrary58.hasura-app.io
+data               Running     data.hasura:80                http://data.arbitrary58.hasura-app.io
+
 
 ```
 
-Find the EXTERNAL-URL for the service named `bot`(in this case -> https://bot.cassava.hasura-app.io).
+Find the EXTERNAL-URL for the service named `bot`(in this case -> https://bot.arbitary58.hasura-app.io).
 
 ### Adding bot to your groups/DM
 Just type @botname to invite the bot to the channel or DM,
@@ -84,6 +86,9 @@ Then type
 ```
 Then just follow on screen instructions(just you and your friend has to type yes to join a game')
 
+Just a demo of how to start a normal game
+![normal](./demo/game1.gif)
+Click [here](https://github.com/dvkcool/slack-tic-tac-toe-bot/demo/game1.gif) if the GIF doesn't load here. 
 Congratulations you have succesfully deployed the slack tic tac toe bot, now whenever you need to take a small break just remember this slack bot and play a small game of tic tac toe with your frien :)
 
 Divyanshu Kumar

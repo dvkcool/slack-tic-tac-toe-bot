@@ -1,6 +1,6 @@
-description: A facebook messenger bot deployed on Hasura.
-keywords: bot, facebook, nodejs, express, node, javascript, messenger, messenger bot,
-  chatbot
+description: A slackbot to play tic tac toe with your team mates at slack, deployed
+  on hasura
+keywords: bot, slack, nodejs, express, node, javascript, slack, slackbot, chatbot
 media: {}
-name: fb-bot
+name: slack-tic-tac
 platformVersion: v0.15.3
