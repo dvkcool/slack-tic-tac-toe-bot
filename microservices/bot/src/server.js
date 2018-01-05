@@ -3,7 +3,7 @@ const http = require('http');
 
 try {
     const fs = require('fs');
-    const token = process.env.SLACK_CONNECT_4_BOT_TOKEN;
+    const token = process.env.SLACK_TOKEN;
     const Bot = require('./bot/bot');
     const bot = new Bot(token);
     
