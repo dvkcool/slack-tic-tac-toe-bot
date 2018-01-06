@@ -96,7 +96,7 @@ Just type  'quit' to abandon game.
 ![quit](https://github.com/dvkcool/slack-tic-tac-toe-bot/blob/master/demo/gamequit.png?raw=true)
 
 
-Congratulations you have succesfully deployed the slack tic tac toe bot, now whenever you need to take a small break just remember this slack bot and play a small game of tic tac toe with your frien :)
+Congratulations you have succesfully deployed the slack tic tac toe bot, now whenever you need to take a small break just remember this slack bot and play a small game of tic tac toe with your friends :)
 
 Divyanshu Kumar
 ## Support
